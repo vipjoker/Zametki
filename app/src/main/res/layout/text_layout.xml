@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_for_list"
+    android:background="@drawable/list_selector">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/btn_star_big_on"
+        android:id="@+id/layout_for_list_img"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:id="@+id/layout_for_list_txt_name"
+        android:textColor="#d30c51ff"
+        android:textSize="25dp"
+        android:layout_toRightOf="@+id/layout_for_list_img"
+        android:text="Hello"
+        android:layout_alignTop="@+id/layout_for_list_img"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="10.10.2014"
+        android:layout_toRightOf="@id/layout_for_list_img"
+        android:layout_alignStart="@+id/layout_for_list_txt_name"
+        android:layout_below="@+id/layout_for_list_txt_name"
+        android:id="@+id/layout_for_list_txt_date">
+        </TextView>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/arrow"
+        android:layout_alignParentRight="true"
+
+        />
+
+</RelativeLayout>
